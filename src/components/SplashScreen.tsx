@@ -61,19 +61,19 @@ export function SplashScreen() {
           alt=""
           width={56}
           height={56}
-          className="mx-auto h-14 w-14 rounded-md border border-gold-line bg-card shadow-sm"
+          className="mx-auto h-12 w-12 rounded-md border border-gold-line bg-card shadow-sm sm:h-14 sm:w-14 lg:h-16 lg:w-16"
         />
-        <p className="mt-5 text-[11px] tracking-[0.34em] text-muted-foreground uppercase">
+        <p className="mt-4 text-[10px] tracking-[0.3em] text-muted-foreground uppercase sm:mt-5 sm:text-[11px] sm:tracking-[0.34em]">
           Sistem Inventaris
         </p>
-        <h1 className="mt-2 font-display text-2xl leading-snug font-semibold tracking-tight text-foreground">
+        <h1 className="mt-2 font-display text-xl leading-snug font-semibold tracking-tight text-balance text-foreground sm:text-2xl lg:text-4xl">
           Lavin Kost Purwokerto
         </h1>
-        <div className="mx-auto mt-4 h-px w-16 bg-primary" />
-        <p className="mt-4 text-xs text-muted-foreground">
+        <div className="mx-auto mt-4 h-px w-12 bg-primary sm:w-16 lg:w-24" />
+        <p className="mt-3 text-[11px] text-muted-foreground sm:mt-4 sm:text-xs lg:text-sm">
           Pencatatan fasilitas kamar &amp; fasilitas utama
         </p>
-        <div className="mx-auto mt-8 h-0.5 w-40 overflow-hidden rounded-full bg-accent">
+        <div className="mx-auto mt-6 h-0.5 w-32 overflow-hidden rounded-full bg-accent sm:mt-8 sm:w-40 lg:w-56">
           <div className="h-full w-1/3 animate-[splash-bar_1.6s_ease-in-out_infinite] bg-primary" />
         </div>
       </div>
