@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import splashAsset from "@/assets/splash-building.jpg.asset.json";
+import splashAsset from "@/assets/splash-building.webp.asset.json";
 
 const STORAGE_KEY = "lavin-splash-shown";
 
