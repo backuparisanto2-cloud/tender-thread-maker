@@ -43,14 +43,19 @@ export function SplashScreen() {
       <div className="relative flex-1 overflow-hidden">
         <img
           src={splashAsset.url}
+          srcSet={splashSrcSet}
+          sizes="(min-width: 1024px) 60vw, 100vw"
+          width={595}
+          height={630}
+          fetchPriority="high"
+          decoding="async"
           alt="Bangunan Lavin Kost Purwokerto"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-center sm:object-[center_35%]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/25 to-transparent" />
       </div>
 
-
-      <div className="relative -mt-24 px-8 pb-14 text-center">
+      <div className="relative -mt-20 px-6 pb-10 text-center sm:-mt-24 sm:px-8 sm:pb-14 lg:-mt-32 lg:pb-20">
         <img
           src="/app-icon-192.png"
           alt=""
