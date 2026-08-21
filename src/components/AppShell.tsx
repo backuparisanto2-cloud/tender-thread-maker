@@ -7,6 +7,7 @@ import {
   Wallet,
   Coins,
   Map,
+  Users,
 
   Menu,
   Type,
@@ -29,9 +30,11 @@ const nav = [
   { to: "/kamar", label: "Kamar", icon: DoorClosed },
   { to: "/denah", label: "Denah", icon: Map },
   { to: "/fasilitas", label: "Fasilitas Utama", icon: Wrench },
+  { to: "/tenant", label: "Tenant & Pembayaran", icon: Users },
   { to: "/pendapatan", label: "Pendapatan", icon: Coins },
   { to: "/pengeluaran", label: "Pengeluaran", icon: Wallet },
   { to: "/laporan", label: "Laporan", icon: FileBarChart },
+
 
 ] as const;
 
